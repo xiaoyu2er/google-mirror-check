@@ -1,0 +1,23 @@
+{
+  "name": "google-mirror-check",
+  "version": "1.0.1",
+  "description": "get accessible google mirrors for mainland internet users",
+  "main": "index.js",
+  "dependencies": {
+    "promise": "^7.1.1",
+    "request": "^2.69.0",
+    "request-promise": "^2.0.1",
+    "uniq": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "google",
+    "mirror",
+    "Great Firewall of China"
+  ],
+  "author": "yanqi.zong <zongyanqi@foxmail.com>",
+  "license": "ISC"
+}
