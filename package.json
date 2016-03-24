@@ -1,6 +1,6 @@
 {
   "name": "google-mirror-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "get accessible google mirrors for mainland internet users",
   "main": "index.js",
   "dependencies": {
