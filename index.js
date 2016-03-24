@@ -39,36 +39,31 @@ var variants = uniq([])
 
 
 
-var backups = [].concat(mirrors, variants);
-
-var promises = backups.map(function(backup) {
-    var d1 = new Date();
-    return request({
-            url: backup.url,
-            timeout: 5000
-        })
-        .then(function(res) {
-            var d2 = new Date();
-            backup.time = d2 - d1;
-            backup.success = true;
-        })
-        .catch(function(err) {
-            backup.success = false;
-        });
-});
 
 
-module.exports = promise.all(promises)
-    .then(function() {
-        return backups.filter(function(b) {
-                return b.success;
-            }).sort(function(a, b) {
-                var type = siteType[b.type] - siteType[a.type];
-                return type == 0 ? a.time - b.time : type;
+exports.check = function() {
+    var backups = [].concat(mirrors, variants);
+    var promises = backups.map(function(backup) {
+        var d1 = new Date();
+        return request({
+                url: backup.url,
+                timeout: 5000
             })
-            .map(function(b) {
-                var str =  '- [' + b.url + '](' + b.url + ')' + ' (' + b.time + 'ms)';
-                console.log(str);
-                return b;
+            .then(function(res) {
+                var d2 = new Date();
+                backup.time = d2 - d1;
+                backup.success = true;
             })
+            .catch(function(err) {
+                backup.success = false;
+            });
     })
+    return promise.all(promises).then(function() {
+        return backups.filter(function(b) {
+            return b.success;
+        }).sort(function(a, b) {
+            var type = siteType[b.type] - siteType[a.type];
+            return type == 0 ? a.time - b.time : type;
+        })
+    });
+};
