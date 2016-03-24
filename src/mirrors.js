@@ -1,0 +1,20 @@
+module.exports = [
+    'http://g.jiasubao.co/',
+    'http://gc.ihuan.me/',
+    'http://ggss.cf/',
+    'http://gogoogle.ml/',
+    'http://google.casejs.com/',
+    'http://hao.cytbj.com/',
+    'http://rose.jgoproxy.tk/',
+    'http://s.8090st.com/',
+    'http://soguge.com/',
+    'http://www.wen.lu/',
+    'http://www.zzq2.com/',
+    'https://g2.wen.lu/',
+    'https://gg.kfd.me/',
+    'https://ggg.eeload.com/',
+    'https://go.cccyun.cn/',
+    'https://jisuobuyu.com/',
+    'https://www.iamgg.pw/',
+    'https://www.onenew.net/'
+];

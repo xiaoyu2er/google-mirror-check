@@ -1,4 +1,4 @@
-var google = require('../index.js')
+var google = require('../index.js');
 
 google.check()
     .then(function(arr) {
@@ -7,4 +7,4 @@ google.check()
             console.log(str);
             return str;
         })
-    })
+    });
