@@ -3,9 +3,10 @@
 使用方法:
 
 ```
-require('google-mirror-check')
+var google = require('google-mirror-check')
+google.check()
     .then(function(arr) {
-        return arr.forEach(function(b) {
+        arr.forEach(function(b) {
             // b = {url: '', type: 'mirror': time: 1922, success: true};
             var str = '- [' + b.url + '](' + b.url + ')' + ' (' + b.time + 'ms)';
             console.log(str);
