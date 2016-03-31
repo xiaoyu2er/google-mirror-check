@@ -2,7 +2,6 @@ module.exports = [
     'http://g.jiasubao.co/',
     'http://gc.ihuan.me/',
     'http://ggss.cf/',
-    'http://gogoogle.ml/',
     'http://google.casejs.com/',
     'http://hao.cytbj.com/',
     'http://rose.jgoproxy.tk/',
