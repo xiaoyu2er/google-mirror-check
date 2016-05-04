@@ -4,6 +4,7 @@ module.exports = [
     "http://ggss.cf/",
     "http://google.casejs.com/",
     "http://hao.cytbj.com/",
+    "https://kuaiguge.com/"
     "http://rose.jgoproxy.tk/",
     "http://s.8090st.com/",
     "http://soguge.com/",
@@ -17,5 +18,6 @@ module.exports = [
     "https://go.cccyun.cn/",
     "https://jisuobuyu.com/",
     "https://www.iamgg.pw/",
-    "https://www.onenew.net/"
+    "https://www.onenew.net/",
+
 ];
