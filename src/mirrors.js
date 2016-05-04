@@ -4,8 +4,7 @@ module.exports = [
     "http://ggss.cf/",
     "http://google.casejs.com/",
     "http://hao.cytbj.com/",
-    "https://kuaiguge.com/"
-    "http://rose.jgoproxy.tk/",
+    "https://kuaiguge.com/",
     "http://s.8090st.com/",
     "http://soguge.com/",
     "http://wen.lu/",
