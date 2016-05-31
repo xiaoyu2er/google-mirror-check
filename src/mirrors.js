@@ -18,5 +18,7 @@ module.exports = [
     "https://jisuobuyu.com/",
     "https://www.iamgg.pw/",
     "https://www.onenew.net/",
+    "https://g.jikewenku.cn/",
+    "https://ggso.in/"
 
 ];
