@@ -19,6 +19,7 @@ module.exports = [
     "https://www.iamgg.pw/",
     "https://www.onenew.net/",
     "https://g.jikewenku.cn/",
-    "https://ggso.in/"
+    "https://ggso.in/",
+    "https://g.libnull.com/"
 
 ];
