@@ -28,5 +28,11 @@ module.exports = [
     "https://global.gogfw.com/",
     "http://ssdao.cdjltz.com/",
     "https://ggss.cf/",
-    "https://www.onk6.com/"
+    "https://www.onk6.com/",
+    "http://g.helloit.info/",
+    "https://www.onk6.com/",
+    "https://www.guge.xxx/",
+    "http://google.hcs.world/",
+    "https://www.google.com.hk/"
+
 ];
