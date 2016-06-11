@@ -11,7 +11,7 @@ module.exports = [
     "http://www.wen.lu/",
     "http://www.zzq2.com/",
     "https://g2.wen.lu/",
-    "https://gg.kfd.me/",
+    "https://gg.kfd.me/webhp?newwindow=1&safe=active",
     "https://ggg.eeload.com/",
     "https://ggss.cf/",
     "https://go.cccyun.cn/",
@@ -20,6 +20,13 @@ module.exports = [
     "https://www.onenew.net/",
     "https://g.jikewenku.cn/",
     "https://ggso.in/",
-    "https://g.libnull.com/"
-
+    "https://g.libnull.com/",
+    "https://g.zrj766.com/",
+    "https://www.wacao.org/",
+    "https://g.alexyang.me/",
+    "http://www.bjgong.tk/",
+    "https://global.gogfw.com/",
+    "http://ssdao.cdjltz.com/",
+    "https://ggss.cf/",
+    "https://www.onk6.com/"
 ];
